@@ -1,3 +1,4 @@
 Bundle-SymbolicName: generic.portlet
 Bundle-Version: 1.1.1
-Include-Resource: @lib/gson-2.6.2.jar
+Import-package:\
+    !com.google.gson.*
