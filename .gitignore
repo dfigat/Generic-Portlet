@@ -2,6 +2,9 @@
 build/
 bin/
 lib/
+gradle/
+gradlew
+gradlew.bat
 .classpath
 .project
 .settings
