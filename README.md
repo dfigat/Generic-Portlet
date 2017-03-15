@@ -9,7 +9,7 @@ Simplest example of json file:
     (required) "parameters": []
 }
 ```
-### Syntaf of tabs object
+### Syntax of tabs object
 * **tabs** object should contains JSON array of strings
 * example:
 ```
@@ -33,7 +33,7 @@ Simplest example of json file:
   * for "text" type: JSON string value or JSON number value
   * for "list" type: JSON array of strings or numbers
   * for "radio" type: JSON array of strings or numbers
-* NAME_OF_PARAMETER: uniqe name of parameter (name must be single word e.g. use _ as separator beetwen words)
+* NAME_OF_PARAMETER: unique name of parameter (name must be single word e.g. use _ as separator between words)
 * DISPLAY: parameter named shown for user in request pop-up 
 
 
