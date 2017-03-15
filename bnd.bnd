@@ -4,10 +4,18 @@ Bundle-Version: 1.1.1
 Export-Package:\
     it.infn.ct.indigo.portlet,\
     it.infn.ct.indigo.portlet.configuration
-Import-package:\
+Import-Package:\
     !com.google.gson.*,\
+    !com.google.gson.annotations.*,\
+    !com.google.gson.internal.*,\
+    !com.google.gson.reflect.*,\
+    !com.google.gson.stream.*,\
     *
-Private-package: \
-    com.google.gson
+Private-Package: \
+    com.google.gson,\
+    com.google.gson.annotations.*,\
+    com.google.gson.internal.*,\
+    com.google.gson.reflect.*,\
+    com.google.gson.stream.*
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title:
